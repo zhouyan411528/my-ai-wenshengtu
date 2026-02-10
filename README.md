@@ -73,6 +73,9 @@ To test webhooks in development, you'll need to create a secure tunnel to your l
 
 Follow these steps to set up your development environment to validate incoming webhooks:
 
+
+
+
 1. Get your signing secret by running:
     ```
     curl -s -X GET -H "Authorization: Bearer $REPLICATE_API_TOKEN" https://api.replicate.com/v1/webhooks/default/secret
